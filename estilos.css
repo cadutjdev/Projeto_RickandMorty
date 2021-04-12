@@ -4,7 +4,7 @@ body {
 }
 
 div#painelA {
-    background-color: #ff0000;
+    background-color: #000d63;
     width: 50%;
     height: 400px;
     position: absolute;
@@ -13,7 +13,7 @@ div#painelA {
 }
 
 div#painelB {
-    background-color: #00ff00;
+    background-color: #6b48ff;
     width: 50%;
     height: 200px;
     position: absolute;
@@ -22,7 +22,7 @@ div#painelB {
 }
 
 div#painelC {
-    background-color: #0000ff;
+    background-color: #0483a0;
     width: 25%;
     height: 200px;
     position: absolute;
