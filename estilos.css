@@ -10,10 +10,11 @@
         position: absolute;
         left: 0px;
         top: 0px;
+        text-align: center;
     }
     
     div#painelB {
-        background-color: #6b48ff;
+        background-color: #0483a0;
         width: 50%;
         height: 200px;
         position: absolute;
@@ -29,15 +30,18 @@
         position: absolute;
         left: 50%;
         top: 200px;
+        text-align: center;
     }
     
     div#painelD {
-        background-color: #ffff00;
+        background-color: #000d63;
         width: 25%;
         height: 200px;
         position: absolute;
         left: 75%;
         top: 200px;
+        text-align: center;
+
     }
     
     p {
@@ -53,6 +57,12 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
         text-align: center;
+    }
+    
+    label {
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
     }
     
     @media (max-width: 768px) {
