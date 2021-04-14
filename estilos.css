@@ -1,82 +1,88 @@
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
-div#painelA {
-    background-color: #000d63;
-    width: 50%;
-    height: 400px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
-div#painelB {
-    background-color: #6b48ff;
-    width: 50%;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 0px;
-}
-
-div#painelC {
-    background-color: #0483a0;
-    width: 25%;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 200px;
-}
-
-div#painelD {
-    background-color: #ffff00;
-    width: 25%;
-    height: 200px;
-    position: absolute;
-    left: 75%;
-    top: 200px;
-}
-
-p {
-    margin: 0px;
-}
-
-@media (max-width: 768px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    
     div#painelA {
-        width: 100%;
+        background-color: #000d63;
+        width: 50%;
+        height: 400px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
     }
+    
     div#painelB {
-        top: 400px;
-        left: 0px;
-        width: 100%;
-    }
-    div#painelC {
-        top: 600px;
-        left: 0px;
+        background-color: #6b48ff;
         width: 50%;
-    }
-    div#painelD {
-        top: 600px;
+        height: 200px;
+        position: absolute;
         left: 50%;
-        width: 50%;
+        top: 0px;
+        text-align: justify;
     }
-}
-
-@media (max-width: 520px) {
+    
     div#painelC {
-        width: 100%;
+        background-color: #0483a0;
+        width: 25%;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 200px;
     }
+    
     div#painelD {
-        top: 800px;
-        left: 0px;
-        width: 100%;
+        background-color: #ffff00;
+        width: 25%;
+        height: 200px;
+        position: absolute;
+        left: 75%;
+        top: 200px;
     }
-}
-
-@media (min-width: 600px) {
+    
     p {
-        text-decoration: underline;
+        margin: 17px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #ffffff;
     }
-}
+    
+    h1 {
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+        div#painelA {
+            width: 100%;
+        }
+        div#painelB {
+            top: 400px;
+            left: 0px;
+            width: 100%;
+        }
+        div#painelC {
+            top: 600px;
+            left: 0px;
+            width: 50%;
+        }
+        div#painelD {
+            top: 600px;
+            left: 50%;
+            width: 50%;
+        }
+    }
+    
+    @media (max-width: 520px) {
+        div#painelC {
+            width: 100%;
+        }
+        div#painelD {
+            top: 800px;
+            left: 0px;
+            width: 100%;
+        }
+    }
