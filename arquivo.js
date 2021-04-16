@@ -7,7 +7,7 @@ const pesquisarNome = async() => {
     const status = await dados.query();
     const genero = await dados.query();
 }
-}
+
 
 document.getElementById('campoNome').addEventListener('focusout', pesquisarNome);
 
